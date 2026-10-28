@@ -11,6 +11,10 @@ else if(isNaN(input1) || isNaN(input2))
 	 alert("Invalid input. Please enter a valid number.")
 	
 }
+else if((input1!="" && input2=="") || (input1=="" && input2!=""))
+{
+	 alert("Invalid input. Please enter a valid number.")
+}
 else
 {
 	let result=+input1 + +input2;
