@@ -6,7 +6,7 @@ if(input1=="" || input2=="")
 {
 	alert("Invalid input. Please enter a valid number.")
 }
-if(isNaN(input1) || isNaN(input2))
+else if(isNaN(input1) || isNaN(input2))
 {
 	 alert("Invalid input. Please enter a valid number.")
 	
